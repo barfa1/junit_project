@@ -13,8 +13,7 @@ public class StringFunctionTest {
 		
 	}
 	
-	@Disabled
-	@Test
+	@CustomAnnotation
 	public void test2() {
 		assertTrue(StringFunction.isPlaindrome("parrot"));
 		
